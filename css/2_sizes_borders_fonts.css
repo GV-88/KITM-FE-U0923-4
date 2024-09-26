@@ -30,13 +30,13 @@ header aside a {
 header nav li,
 header a,
 header button {
-  font-size: 11px;
+  font-size: 12px;
   font-weight: bold;
 }
 
 header a {
-  line-height: 11px;
-  height: 11px;
+  line-height: 12px;
+  height: 12px;
 }
 
 header .logo {
@@ -50,30 +50,34 @@ header button {
 }
 
 #language-picker {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 #language-picker .fa-solid {
   font-size: 22px;
   margin-right: 4px;
-  /* TODO: solve vertical alignment */
+  vertical-align: sub; /* cheating workaround */
 }
 
 header a[dropdown]::after {
   content: '\25BC';
   display: inline-block;
-  height: 11px;
   font-size: 0.75em;
   margin-left: 0.25em;
   margin-right: 0.25em;
+  vertical-align: text-top; /* cheating workaround */
+  line-height: 16px;
 }
 
-header a[dropdown]::after {
-  content: '\25BC';
+#language-picker[dropdown]::after {
+  font-size: 0.5em;
+  line-height: 18px;
+  margin-left: 0.5em;
 }
 
 header button {
   border-style: none;
+  font-weight: bolder;
 }
 
 main {
@@ -106,4 +110,6 @@ footer {
 
 footer h2 {
   text-transform: capitalize; /* who ever does this? */
+  margin: 0 auto;
+  max-width: 32em;
 }
