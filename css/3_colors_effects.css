@@ -1,0 +1,35 @@
+header,
+main {
+  background-color: #555;
+  color: #fff;
+}
+
+header {
+  background-color: #084f70;
+}
+
+header a {
+  color: #fff;
+}
+
+header button {
+  background-color: #f6921e;
+  color: #fff;
+}
+
+main {
+  background-color: #1688d1;
+  background-image: url('https://images.pexels.com/photos/3069868/pexels-photo-3069868.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-blend-mode: soft-light;
+}
+
+main button {
+  background: none;
+  color: #fff;
+  border-color: #fff;
+}
+
+footer {
+  color: #759aac;
+}

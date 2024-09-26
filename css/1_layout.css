@@ -1,0 +1,27 @@
+.logo,
+header nav,
+header nav li,
+header aside {
+  display: inline-block;
+}
+
+header,
+header .logo,
+header nav li {
+  vertical-align: middle;
+}
+
+header aside {
+  float: right;
+  vertical-align: middle;
+}
+
+main,
+footer {
+  text-align: center;
+}
+
+main p {
+  margin-left: auto;
+  margin-right: auto;
+}
